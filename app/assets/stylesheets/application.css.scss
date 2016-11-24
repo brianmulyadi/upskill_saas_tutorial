@@ -50,6 +50,25 @@
     font-weight: 800;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: white;
+    &:hover, &:focus {
+        background-color: #BD1E2E;
+    }
+    .icon-bar {
+        background-color: white;
+    }
+}
+
+.navbar-collapse {
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
 // Typography Styles
 
 h1, h2, h3 {
